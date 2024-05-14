@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Poker12.Core.Test
-build_property.ProjectDir = /home/et12alumno/Descargas/Poker12/Poker12.Core.Test/
+build_property.ProjectDir = /home/pc/Poker-Practica/Poker12/Poker12.Core.Test/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

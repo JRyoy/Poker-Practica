@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/et12alumno/.nuget/packages/": {}
+    "/home/pc/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/et12alumno/Descargas/Poker12/Poker12.Core/Poker12.Core.csproj",
+      "projectUniqueName": "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
       "projectName": "Poker12.Core",
-      "projectPath": "/home/et12alumno/Descargas/Poker12/Poker12.Core/Poker12.Core.csproj",
-      "packagesPath": "/home/et12alumno/.nuget/packages/",
-      "outputPath": "/home/et12alumno/Descargas/Poker12/Poker12.Core/obj/",
+      "projectPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
+      "packagesPath": "/home/pc/.nuget/packages/",
+      "outputPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+        "/home/pc/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/241/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,7 +16,7 @@ public class EscaleraRealTest
     }
 
     [Fact]
-    public void PruebaEscalera()
+    public void PruebaEscaleraReal()
     {
         var jugada = new List<Carta>()
         {

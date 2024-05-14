@@ -19,10 +19,14 @@ public class EscaleraReal : IJugada
         bool sonPicas = cartas.All(x => x.Palo == EPalo.Picas);
         bool sonTreboles = cartas.All(x => x.Palo == EPalo.Trebol);
 
-        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
+        if (cartas.Count < 5)
+        {
+            throw new ArgumentException("No se puede realizar esta jugada");
+        }
+
+        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles && cartas.Count == 5)
         {
             var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
-
             int contador = 0;
 
             foreach (var carta in ordenadasPorValor)

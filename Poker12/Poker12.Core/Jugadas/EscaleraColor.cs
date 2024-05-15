@@ -26,16 +26,9 @@ public class EscaleraColor : IJugada
         if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
         {
             var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
-            var min=ordenadasPorValor.Min();
-            int contador=0;
-            foreach (var carta in ordenadasPorValor)
-            {
-                if ( carta.Valor>=min.Valor)
-                {
-                    
-                }
-                contador++;
-            }
+            var i = (byte)ordenadasPorValor.First().Valor;
+            var valor = (byte)ordenadasPorValor.Last().Valor;
+            
 
         }
 

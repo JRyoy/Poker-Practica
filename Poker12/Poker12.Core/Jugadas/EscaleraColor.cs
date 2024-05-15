@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Poker12.Core.Jugadas;
 
 public class EscaleraColor : IJugada
@@ -23,46 +25,22 @@ public class EscaleraColor : IJugada
 
         if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
         {
-            List<byte> cartasByte = new List<byte>();
-            List<byte> valoresByte = new List<byte>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
             var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
-
-            foreach (var item in ordenadasPorValor)
+            var min=ordenadasPorValor.Min();
+            int contador=0;
+            foreach (var carta in ordenadasPorValor)
             {
-                cartasByte.Add((byte)item.Valor);
+                if ( carta.Valor>=min.Valor)
+                {
+                    
+                }
+                contador++;
             }
 
-            var recortarValoresByte = Slice(valoresByte, cartasByte[1], cartasByte.Last());
-
-            if (recortarValoresByte.Count < 5 && cartasByte.Contains(1))
-            {
-                var valor = ordenadasPorValor.First().Valor == EValor.As ? (byte)14 : (byte)0;
-
-                return new Resultado(Prioridad, valor);
-            }
-            else if (recortarValoresByte.Count < 5)
-            {
-                var valor = ordenadasPorValor.First().Valor == EValor.As ? (byte)14 :
-                            (byte)ordenadasPorValor.Last().Valor;
-
-                return new Resultado(Prioridad, valor);
-            }
         }
 
         return new Resultado(Prioridad, (byte)0);
     }
 
-    private List<byte> Slice(List<byte> lista, byte begin, byte end)
-    {
-        List<byte> list = new List<byte>();
-        foreach (var item in lista)
-        {
-            if (item >= begin && item <= end)
-            {
-                list.Add(item);
-            }
-        }
 
-        return list;
-    }
 }

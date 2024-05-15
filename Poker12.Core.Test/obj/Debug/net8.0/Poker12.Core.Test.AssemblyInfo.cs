@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Poker12.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Poker12.Core.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b77bf54166c98735bea860712da7e477280bee0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Poker12.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Poker12.Core")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00868ffc978e62ce77e08a95cddefdb70846c54")]
+[assembly: System.Reflection.AssemblyProductAttribute("Poker12.Core.Test")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Poker12.Core.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

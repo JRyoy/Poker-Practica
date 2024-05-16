@@ -22,13 +22,13 @@ public class EscaleraColorTest
         {
             new(EPalo.Picas, EValor.Cuatro),
             new(EPalo.Picas, EValor.Cinco),
-            new(EPalo.Picas, EValor.Seis),
-            new(EPalo.Picas, EValor.Siete),
+            new(EPalo.Picas, EValor.Tres),
+            new(EPalo.Picas, EValor.Dos),
             new(EPalo.Picas, EValor.As),
         };
 
         var resultado = _escaleraColor.Aplicar(jugada);
 
-        Assert.Equal(14, resultado.Valor);
+        Assert.Equal(5, resultado.Valor);
     }
 }

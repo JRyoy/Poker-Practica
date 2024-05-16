@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/pc/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {}
+    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {}
   },
   "projects": {
-    "/home/pc/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {
+    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pc/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
+        "projectUniqueName": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
         "projectName": "Poker12.Core.Test",
-        "projectPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
-        "packagesPath": "/home/pc/.nuget/packages/",
-        "outputPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core.Test/obj/",
+        "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
+        "packagesPath": "/home/et12alumno/.nuget/packages/",
+        "outputPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pc/.nuget/NuGet/NuGet.Config"
+          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
-                "projectPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj"
+              "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
+                "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj"
               }
             }
           }
@@ -36,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -80,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/241/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
+    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
+        "projectUniqueName": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
         "projectName": "Poker12.Core",
-        "projectPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
-        "packagesPath": "/home/pc/.nuget/packages/",
-        "outputPath": "/home/pc/Poker-Practica/Poker12/Poker12.Core/obj/",
+        "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
+        "packagesPath": "/home/et12alumno/.nuget/packages/",
+        "outputPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pc/.nuget/NuGet/NuGet.Config"
+          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -112,11 +107,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -138,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/241/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

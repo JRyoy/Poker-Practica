@@ -26,7 +26,15 @@ public class EscaleraReal : IJugada
 
         if (sonCorazones || sonDiamantes || sonPicas || sonTreboles && cartas.Count == 5)
         {
-            var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
+            var x=esEscalera(cartas);
+            return new Resultado(Prioridad, x);
+        }
+
+        return new Resultado(Prioridad, (byte)0);
+    }
+    public byte esEscalera(List<Carta> cartas)
+    {
+         var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
             int contador = 0;
 
             foreach (var carta in ordenadasPorValor)
@@ -43,9 +51,6 @@ public class EscaleraReal : IJugada
 
             var valor = contador == 5 ? (byte)14 : (byte)0;
 
-            return new Resultado(Prioridad, valor);
-        }
-
-        return new Resultado(Prioridad, (byte)0);
+            return  (byte)valor;
     }
 }

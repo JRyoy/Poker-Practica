@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {}
+    "c:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core.Test\\Poker12.Core.Test.csproj": {}
   },
   "projects": {
-    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj": {
+    "c:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core.Test\\Poker12.Core.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
+        "projectUniqueName": "c:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core.Test\\Poker12.Core.Test.csproj",
         "projectName": "Poker12.Core.Test",
-        "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/Poker12.Core.Test.csproj",
-        "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core.Test/obj/",
+        "projectPath": "c:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core.Test\\Poker12.Core.Test.csproj",
+        "packagesPath": "C:\\Users\\Josbert\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Josbert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
-                "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj"
+              "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\Poker12.Core.csproj": {
+                "projectPath": "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\Poker12.Core.csproj"
               }
             }
           }
@@ -36,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,26 +87,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj": {
+    "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\Poker12.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\Poker12.Core.csproj",
         "projectName": "Poker12.Core",
-        "projectPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/Poker12.Core.csproj",
-        "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/mnt/Datos/Repos/Poker-Practica/Poker12/Poker12.Core/obj/",
+        "projectPath": "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\Poker12.Core.csproj",
+        "packagesPath": "C:\\Users\\Josbert\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josbert\\Documents\\GitHub\\Poker-Practica\\Poker12\\Poker12.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Josbert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,6 +126,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -128,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

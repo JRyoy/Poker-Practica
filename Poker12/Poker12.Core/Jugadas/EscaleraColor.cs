@@ -17,24 +17,13 @@ public class EscaleraColor : IJugada
         bool sonDiamantes = cartas.All(x => x.Palo == EPalo.Diamante);
         bool sonPicas = cartas.All(x => x.Palo == EPalo.Picas);
         bool sonTreboles = cartas.All(x => x.Palo == EPalo.Trebol);
-        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
+        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles && cartas.Count == 5)
         {
-            var mayor=EsEscalera(cartas);
-            
+            var mayor = EsEscalera(cartas);
+            return new Resultado(Prioridad, mayor);
+
         }
-
-        // if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
-        // {
-        //     var ordenadasPorValor = cartas.OrderBy(x => x.Valor).ToList();
-        //     var i = (byte)ordenadasPorValor.First().Valor;
-        //     var valor = (byte)ordenadasPorValor.Last().Valor;
-        //     return ordenadasPorValor.TrueForAll(x => i++ == (byte)x.Valor) ?
-        //                     new Resultado(Prioridad, valor) :
-        //                     new Resultado(Prioridad, 0) ;
-        // }
-        //    
-
-        return new Resultado(Prioridad,(byte)0);
+        return new Resultado(Prioridad, (byte)0);
 
     }
     public byte EsEscalera(List<Carta> cartas)
@@ -42,12 +31,14 @@ public class EscaleraColor : IJugada
         var ordenadasPorValor = cartas.OrderBy(x => x.Valor);
         var inicio = (byte)ordenadasPorValor.First().Valor;
         var ultimo = (byte)ordenadasPorValor.Last().Valor;
-        foreach (var item in cartas)
+
+        foreach (var item in ordenadasPorValor)
         {
-            if ((byte)item.Valor >=inicio  && inicio<=ultimo ) 
+            if ((byte)item.Valor != inicio)
             {
-                inicio+=(byte)1;
+                return 0; // No es una escalera
             }
+            inicio++;
         }
         return ultimo;
     }

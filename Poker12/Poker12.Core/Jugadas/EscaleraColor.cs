@@ -9,22 +9,21 @@ public class EscaleraColor : IJugada
     public byte Prioridad => 2;
     public Resultado Aplicar(List<Carta> cartas)
     {
-        if (cartas.Count == 0)
-            throw new ArgumentException("No hay cartas");
         if (cartas.Count < 5)
             throw new ArgumentException("No se puede realizar esta jugada");
+        
         bool sonCorazones = cartas.All(x => x.Palo == EPalo.Corazon);
         bool sonDiamantes = cartas.All(x => x.Palo == EPalo.Diamante);
         bool sonPicas = cartas.All(x => x.Palo == EPalo.Picas);
         bool sonTreboles = cartas.All(x => x.Palo == EPalo.Trebol);
-        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles && cartas.Count == 5)
+
+        if (sonCorazones || sonDiamantes || sonPicas || sonTreboles)
         {
             var mayor = EsEscalera(cartas);
             return new Resultado(Prioridad, mayor);
-
         }
-        return new Resultado(Prioridad, (byte)0);
 
+        return new Resultado(Prioridad, (byte)0);
     }
     public byte EsEscalera(List<Carta> cartas)
     {

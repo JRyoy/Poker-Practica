@@ -15,7 +15,7 @@ public class EscaleraColorTest
         Assert.Throws<ArgumentException>(() => _escaleraColor.Aplicar(jugada));
     }
 
-
+    [Fact]
     public void PruebaEscaleraColorfalla()
     {
         var jugada = new List<Carta>()
@@ -23,13 +23,12 @@ public class EscaleraColorTest
             new(EPalo.Picas, EValor.Ocho),
             new(EPalo.Picas, EValor.Siete),
             new(EPalo.Picas, EValor.Cinco),
-            new(EPalo.Picas, EValor.Diez),
-            new(EPalo.Picas, EValor.As),
+            new(EPalo.Picas, EValor.Seis),
+            new(EPalo.Picas, EValor.Nueve),
         };
 
         var resultado = _escaleraColor.Aplicar(jugada);
 
-        Assert.Equal(0, resultado.Valor);
+        Assert.Equal(9, resultado.Valor);
     }
-
 }
